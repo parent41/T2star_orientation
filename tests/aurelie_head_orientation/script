@@ -1,0 +1,11 @@
+# Create transform between tempalte T1 and native T2*
+
+for files in ../DBM/T2star_map_anlm_native_mnc_cropped/* ; do bestlinreg_g -lsq6 -nmi ../DBM/output/secondlevel/secondlevel_template0_cropped.mnc  $files Transform_template_to_T2native/"${files:42:7}"_template_to_T2native_transform.xfm ; done
+
+# Remove 6 first rows because useless
+
+for files in Transform_template_to_T2native/* ; do sed '1,6d' $files > Transform_template_to_T2native/$(basename $files .xfm)_numbers.xfm ; done
+
+
+
+

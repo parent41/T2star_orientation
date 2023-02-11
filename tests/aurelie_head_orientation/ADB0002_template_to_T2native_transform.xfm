@@ -1,0 +1,9 @@
+MNI Transform File
+%Wed Oct 19 16:31:09 2022>>> minctracc -clobber -lsq6 -step 2 2 2 -simplex 4 -tol 0.0005 -transformation /tmp/bestlinreg_g-WB7uYNa1/s_secondlevel_template0_cropped_3.xfm -nmi /tmp/bestlinreg_g-WB7uYNa1/s_secondlevel_template0_cropped_2_blur.mnc /tmp/bestlinreg_g-WB7uYNa1/t_ADB0002_T2star_map_anlm_native_nii_cropped_2_blur.mnc /tmp/bestlinreg_g-WB7uYNa1/s_secondlevel_template0_cropped_4.xfm
+%(mni_autoreg 0.99.70)
+
+Transform_Type = Linear;
+Linear_Transform =
+ 0.998604416847229 -0.0212958473712206 0.0483287908136845 -2.50537705421448
+ 0.0378960035741329 0.926305532455444 -0.374862551689148 25.8453712463379
+ -0.0367842130362988 0.376170873641968 0.925819873809814 12.8275327682495;
